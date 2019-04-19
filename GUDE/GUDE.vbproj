@@ -70,6 +70,24 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FriendProfile.Designer.vb">
+      <DependentUpon>FriendProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FriendProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Friends.Designer.vb">
+      <DependentUpon>Friends.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Friends.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update Profile.Designer.vb">
+      <DependentUpon>Update Profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Update Profile.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Log in.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +124,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FriendProfile.resx">
+      <DependentUpon>FriendProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Friends.resx">
+      <DependentUpon>Friends.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Log in.resx">
       <DependentUpon>Log in.vb</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Profile.resx">
       <DependentUpon>Profile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update Profile.resx">
+      <DependentUpon>Update Profile.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
