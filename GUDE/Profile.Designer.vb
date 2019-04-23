@@ -46,10 +46,10 @@ Partial Class Profile
         Me.Label22 = New System.Windows.Forms.Label()
         Me.AccDelete = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -323,6 +323,19 @@ Partial Class Profile
         Me.Button1.Text = "Update Details"
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(13, Byte), Integer), CType(CType(130, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button2.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.Control
+        Me.Button2.Location = New System.Drawing.Point(718, 351)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(120, 50)
+        Me.Button2.TabIndex = 27
+        Me.Button2.Text = "Back"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
@@ -351,19 +364,6 @@ Partial Class Profile
         Me.PictureBox3.Size = New System.Drawing.Size(408, 400)
         Me.PictureBox3.TabIndex = 16
         Me.PictureBox3.TabStop = False
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(13, Byte), Integer), CType(CType(130, Byte), Integer), CType(CType(223, Byte), Integer))
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button2.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button2.Location = New System.Drawing.Point(718, 351)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(120, 50)
-        Me.Button2.TabIndex = 27
-        Me.Button2.Text = "Back"
-        Me.Button2.UseVisualStyleBackColor = False
         '
         'Profile
         '

@@ -4,6 +4,7 @@
         If UsernameText.Text <> "" And password.Text <> "" Then
             Username = UsernameText.Text
             Main_Screen.Show()
+            Me.Hide()
         End If
         If UsernameText.Text = "" Then
             MsgBox("Please enter a username and password.", 0, "Error!")

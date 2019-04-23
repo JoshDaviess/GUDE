@@ -38,8 +38,10 @@ Partial Class Main_Screen
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -47,8 +49,8 @@ Partial Class Main_Screen
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Welcome
@@ -92,7 +94,7 @@ Partial Class Main_Screen
         Me.UserProfile.ForeColor = System.Drawing.SystemColors.Control
         Me.UserProfile.Location = New System.Drawing.Point(992, 110)
         Me.UserProfile.Name = "UserProfile"
-        Me.UserProfile.Size = New System.Drawing.Size(170, 80)
+        Me.UserProfile.Size = New System.Drawing.Size(170, 40)
         Me.UserProfile.TabIndex = 6
         Me.UserProfile.Text = "User Profile"
         Me.UserProfile.UseVisualStyleBackColor = False
@@ -105,7 +107,7 @@ Partial Class Main_Screen
         Me.Friends.ForeColor = System.Drawing.SystemColors.Control
         Me.Friends.Location = New System.Drawing.Point(992, 196)
         Me.Friends.Name = "Friends"
-        Me.Friends.Size = New System.Drawing.Size(170, 80)
+        Me.Friends.Size = New System.Drawing.Size(170, 40)
         Me.Friends.TabIndex = 8
         Me.Friends.Text = "Friends"
         Me.Friends.UseVisualStyleBackColor = False
@@ -118,7 +120,7 @@ Partial Class Main_Screen
         Me.Button2.ForeColor = System.Drawing.SystemColors.Control
         Me.Button2.Location = New System.Drawing.Point(992, 282)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(170, 80)
+        Me.Button2.Size = New System.Drawing.Size(170, 40)
         Me.Button2.TabIndex = 10
         Me.Button2.Text = "Caches"
         Me.Button2.UseVisualStyleBackColor = False
@@ -131,7 +133,7 @@ Partial Class Main_Screen
         Me.Button3.ForeColor = System.Drawing.SystemColors.Control
         Me.Button3.Location = New System.Drawing.Point(992, 368)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(170, 80)
+        Me.Button3.Size = New System.Drawing.Size(170, 40)
         Me.Button3.TabIndex = 12
         Me.Button3.Text = "Trophies"
         Me.Button3.UseVisualStyleBackColor = False
@@ -144,7 +146,7 @@ Partial Class Main_Screen
         Me.Button4.ForeColor = System.Drawing.SystemColors.Control
         Me.Button4.Location = New System.Drawing.Point(992, 454)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(170, 80)
+        Me.Button4.Size = New System.Drawing.Size(170, 40)
         Me.Button4.TabIndex = 14
         Me.Button4.Text = "Help Centre"
         Me.Button4.UseVisualStyleBackColor = False
@@ -237,6 +239,15 @@ Partial Class Main_Screen
         Me.PictureBox3.TabIndex = 2
         Me.PictureBox3.TabStop = False
         '
+        'PictureBox9
+        '
+        Me.PictureBox9.BackColor = System.Drawing.Color.FromArgb(CType(CType(228, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(254, Byte), Integer))
+        Me.PictureBox9.Location = New System.Drawing.Point(857, 0)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(329, 764)
+        Me.PictureBox9.TabIndex = 17
+        Me.PictureBox9.TabStop = False
+        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.GUDE.My.Resources.Resources._Portsmouth_Map_jpg__Container__State_1_0_5x
@@ -247,14 +258,27 @@ Partial Class Main_Screen
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'PictureBox9
+        'Label1
         '
-        Me.PictureBox9.BackColor = System.Drawing.Color.FromArgb(CType(CType(228, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(254, Byte), Integer))
-        Me.PictureBox9.Location = New System.Drawing.Point(857, 0)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(329, 764)
-        Me.PictureBox9.TabIndex = 17
-        Me.PictureBox9.TabStop = False
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(234, Byte), Integer))
+        Me.Label1.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(1015, 325)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(119, 22)
+        Me.Label1.TabIndex = 18
+        Me.Label1.Text = "0/9 Obtained"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(234, Byte), Integer))
+        Me.Label2.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(1005, 411)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(145, 22)
+        Me.Label2.TabIndex = 19
+        Me.Label2.Text = "0/144 Collected"
         '
         'Main_Screen
         '
@@ -262,6 +286,8 @@ Partial Class Main_Screen
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(228, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(254, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1184, 761)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.LogOut)
         Me.Controls.Add(Me.PictureBox8)
         Me.Controls.Add(Me.Button4)
@@ -290,8 +316,8 @@ Partial Class Main_Screen
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -315,4 +341,6 @@ Partial Class Main_Screen
     Friend WithEvents Button4 As Button
     Friend WithEvents LogOut As Button
     Friend WithEvents PictureBox9 As PictureBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
 End Class

@@ -14,7 +14,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs)
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Main_Screen.Show()
         Me.Hide()
     End Sub
