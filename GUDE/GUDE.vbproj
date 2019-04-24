@@ -99,6 +99,12 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Caches.Designer.vb">
+      <DependentUpon>Caches.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Caches.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FriendProfile.Designer.vb">
       <DependentUpon>FriendProfile.vb</DependentUpon>
     </Compile>
@@ -111,6 +117,24 @@
     <Compile Include="Friends.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Fullscreen.Designer.vb">
+      <DependentUpon>Fullscreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fullscreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhotoCache.Designer.vb">
+      <DependentUpon>PhotoCache.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoCache.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextCache.Designer.vb">
+      <DependentUpon>TextCache.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TextCache.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Trophies.Designer.vb">
       <DependentUpon>Trophies.vb</DependentUpon>
     </Compile>
@@ -121,6 +145,12 @@
       <DependentUpon>Trophy.vb</DependentUpon>
     </Compile>
     <Compile Include="Trophy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UncollectedCache.Designer.vb">
+      <DependentUpon>UncollectedCache.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UncollectedCache.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Update Profile.Designer.vb">
@@ -163,13 +193,25 @@
     <Compile Include="Profile.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="VideoCache.Designer.vb">
+      <DependentUpon>VideoCache.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VideoCache.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Caches.resx">
+      <DependentUpon>Caches.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FriendProfile.resx">
       <DependentUpon>FriendProfile.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Friends.resx">
       <DependentUpon>Friends.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fullscreen.resx">
+      <DependentUpon>Fullscreen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Log in.resx">
       <DependentUpon>Log in.vb</DependentUpon>
@@ -183,8 +225,14 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="PhotoCache.resx">
+      <DependentUpon>PhotoCache.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Profile.resx">
       <DependentUpon>Profile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextCache.resx">
+      <DependentUpon>TextCache.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Trophies.resx">
       <DependentUpon>Trophies.vb</DependentUpon>
@@ -192,8 +240,14 @@
     <EmbeddedResource Include="Trophy.resx">
       <DependentUpon>Trophy.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UncollectedCache.resx">
+      <DependentUpon>UncollectedCache.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Update Profile.resx">
       <DependentUpon>Update Profile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VideoCache.resx">
+      <DependentUpon>VideoCache.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -232,6 +286,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnificent-postcard-russell-russell-premises2portsmouth.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

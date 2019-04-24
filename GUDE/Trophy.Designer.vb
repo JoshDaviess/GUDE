@@ -193,6 +193,7 @@ Partial Class Trophy
         '
         'PictureBox4
         '
+        Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox4.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox4.Location = New System.Drawing.Point(55, 200)
         Me.PictureBox4.Name = "PictureBox4"
@@ -204,6 +205,7 @@ Partial Class Trophy
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label2.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(39, 253)
         Me.Label2.Name = "Label2"
@@ -214,6 +216,7 @@ Partial Class Trophy
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label3.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(128, 253)
         Me.Label3.Name = "Label3"
@@ -224,6 +227,7 @@ Partial Class Trophy
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label4.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(217, 253)
         Me.Label4.Name = "Label4"
@@ -234,6 +238,7 @@ Partial Class Trophy
         'Label5
         '
         Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label5.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(306, 253)
         Me.Label5.Name = "Label5"
@@ -243,6 +248,7 @@ Partial Class Trophy
         '
         'PictureBox5
         '
+        Me.PictureBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox5.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox5.Location = New System.Drawing.Point(145, 200)
         Me.PictureBox5.Name = "PictureBox5"
@@ -253,6 +259,7 @@ Partial Class Trophy
         '
         'PictureBox6
         '
+        Me.PictureBox6.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox6.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox6.Location = New System.Drawing.Point(231, 200)
         Me.PictureBox6.Name = "PictureBox6"
@@ -263,6 +270,7 @@ Partial Class Trophy
         '
         'PictureBox7
         '
+        Me.PictureBox7.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox7.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox7.Location = New System.Drawing.Point(321, 200)
         Me.PictureBox7.Name = "PictureBox7"
@@ -273,6 +281,7 @@ Partial Class Trophy
         '
         'PictureBox8
         '
+        Me.PictureBox8.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox8.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox8.Location = New System.Drawing.Point(321, 275)
         Me.PictureBox8.Name = "PictureBox8"
@@ -283,6 +292,7 @@ Partial Class Trophy
         '
         'PictureBox9
         '
+        Me.PictureBox9.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox9.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox9.Location = New System.Drawing.Point(231, 275)
         Me.PictureBox9.Name = "PictureBox9"
@@ -293,6 +303,7 @@ Partial Class Trophy
         '
         'PictureBox10
         '
+        Me.PictureBox10.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox10.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox10.Location = New System.Drawing.Point(145, 275)
         Me.PictureBox10.Name = "PictureBox10"
@@ -304,6 +315,7 @@ Partial Class Trophy
         'Label6
         '
         Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label6.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(306, 328)
         Me.Label6.Name = "Label6"
@@ -314,6 +326,7 @@ Partial Class Trophy
         'Label7
         '
         Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label7.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(217, 328)
         Me.Label7.Name = "Label7"
@@ -324,6 +337,7 @@ Partial Class Trophy
         'Label9
         '
         Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label9.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(128, 328)
         Me.Label9.Name = "Label9"
@@ -334,6 +348,7 @@ Partial Class Trophy
         'Label11
         '
         Me.Label11.AutoSize = True
+        Me.Label11.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label11.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.Location = New System.Drawing.Point(39, 328)
         Me.Label11.Name = "Label11"
@@ -343,6 +358,7 @@ Partial Class Trophy
         '
         'PictureBox11
         '
+        Me.PictureBox11.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox11.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox11.Location = New System.Drawing.Point(55, 275)
         Me.PictureBox11.Name = "PictureBox11"
@@ -353,6 +369,7 @@ Partial Class Trophy
         '
         'PictureBox12
         '
+        Me.PictureBox12.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox12.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox12.Location = New System.Drawing.Point(321, 429)
         Me.PictureBox12.Name = "PictureBox12"
@@ -363,6 +380,7 @@ Partial Class Trophy
         '
         'PictureBox13
         '
+        Me.PictureBox13.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox13.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox13.Location = New System.Drawing.Point(231, 429)
         Me.PictureBox13.Name = "PictureBox13"
@@ -373,6 +391,7 @@ Partial Class Trophy
         '
         'PictureBox14
         '
+        Me.PictureBox14.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox14.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox14.Location = New System.Drawing.Point(145, 429)
         Me.PictureBox14.Name = "PictureBox14"
@@ -384,6 +403,7 @@ Partial Class Trophy
         'Label12
         '
         Me.Label12.AutoSize = True
+        Me.Label12.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label12.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.Location = New System.Drawing.Point(306, 482)
         Me.Label12.Name = "Label12"
@@ -394,6 +414,7 @@ Partial Class Trophy
         'Label13
         '
         Me.Label13.AutoSize = True
+        Me.Label13.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label13.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.Location = New System.Drawing.Point(217, 482)
         Me.Label13.Name = "Label13"
@@ -404,6 +425,7 @@ Partial Class Trophy
         'Label23
         '
         Me.Label23.AutoSize = True
+        Me.Label23.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label23.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.Location = New System.Drawing.Point(128, 482)
         Me.Label23.Name = "Label23"
@@ -414,6 +436,7 @@ Partial Class Trophy
         'Label24
         '
         Me.Label24.AutoSize = True
+        Me.Label24.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label24.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.Location = New System.Drawing.Point(39, 482)
         Me.Label24.Name = "Label24"
@@ -423,6 +446,7 @@ Partial Class Trophy
         '
         'PictureBox15
         '
+        Me.PictureBox15.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox15.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox15.Location = New System.Drawing.Point(55, 429)
         Me.PictureBox15.Name = "PictureBox15"
@@ -433,6 +457,7 @@ Partial Class Trophy
         '
         'PictureBox16
         '
+        Me.PictureBox16.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox16.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox16.Location = New System.Drawing.Point(321, 354)
         Me.PictureBox16.Name = "PictureBox16"
@@ -443,6 +468,7 @@ Partial Class Trophy
         '
         'PictureBox17
         '
+        Me.PictureBox17.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox17.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox17.Location = New System.Drawing.Point(231, 354)
         Me.PictureBox17.Name = "PictureBox17"
@@ -453,6 +479,7 @@ Partial Class Trophy
         '
         'PictureBox18
         '
+        Me.PictureBox18.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox18.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox18.Location = New System.Drawing.Point(145, 354)
         Me.PictureBox18.Name = "PictureBox18"
@@ -464,6 +491,7 @@ Partial Class Trophy
         'Label25
         '
         Me.Label25.AutoSize = True
+        Me.Label25.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label25.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.Location = New System.Drawing.Point(306, 407)
         Me.Label25.Name = "Label25"
@@ -474,6 +502,7 @@ Partial Class Trophy
         'Label26
         '
         Me.Label26.AutoSize = True
+        Me.Label26.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label26.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.Location = New System.Drawing.Point(217, 407)
         Me.Label26.Name = "Label26"
@@ -484,6 +513,7 @@ Partial Class Trophy
         'Label27
         '
         Me.Label27.AutoSize = True
+        Me.Label27.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label27.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.Location = New System.Drawing.Point(128, 407)
         Me.Label27.Name = "Label27"
@@ -494,6 +524,7 @@ Partial Class Trophy
         'Label28
         '
         Me.Label28.AutoSize = True
+        Me.Label28.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Label28.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.Location = New System.Drawing.Point(39, 407)
         Me.Label28.Name = "Label28"
@@ -503,6 +534,7 @@ Partial Class Trophy
         '
         'PictureBox19
         '
+        Me.PictureBox19.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.PictureBox19.Image = Global.GUDE.My.Resources.Resources.Treasure
         Me.PictureBox19.Location = New System.Drawing.Point(55, 354)
         Me.PictureBox19.Name = "PictureBox19"

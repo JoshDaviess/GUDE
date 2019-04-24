@@ -117,26 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="e8b0ecf83970ebec316a77aeeff8d136" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e8b0ecf83970ebec316a77aeeff8d136.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Woah" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Woah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Default Photo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Default Photo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_Portsmouth Map.jpg_ Container- State 1@0.5x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\_Portsmouth Map.jpg_ Container- State 1@0.5x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ecab285fe65c3af4d76dbb709df62038" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ecab285fe65c3af4d76dbb709df62038.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Treasure" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Treasure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="magnificent-postcard-russell-russell-premises2portsmouth" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\magnificent-postcard-russell-russell-premises2portsmouth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RichTextBox1.Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac ultricies massa. Nunc vitae magna risus. Nulla facilisi. Mauris euismod justo ut dolor elementum, a consectetur felis bibendum. Fusce sagittis, nisi sit amet viverra facilisis, ipsum lectus commodo elit, vitae blandit lectus mi ac nibh. Cras a dui at sem maximus aliquet. Nullam vitae ultricies lorem.
+ 
+Etiam sit amet risus iaculis, lacinia lorem ac, elementum eros. Cras accumsan pulvinar tempus. Morbi tristique imperdiet urna, eget imperdiet metus pellentesque in. Maecenas luctus volutpat magna facilisis iaculis. Integer luctus sollicitudin pretium. Integer ultricies neque quam, tincidunt hendrerit nisi semper ac. Suspendisse potenti. Aliquam facilisis turpis et laoreet hendrerit.
+ 
+Maecenas eget sagittis ante. Cras hendrerit urna et feugiat tincidunt. Phasellus finibus rhoncus turpis, ut sagittis nibh molestie sit amet. Quisque non posuere erat. Maecenas ut nisi pretium, sagittis massa ac, ultricies orci. Nulla non gravida neque. In gravida a mi in imperdiet. Aenean egestas ullamcorper leo, vel tempus sapien fringilla sed. Nunc suscipit neque non libero consectetur, vitae faucibus tellus dignissim. Donec eget facilisis augue. In interdum ligula elit, sed mollis lectus vehicula eu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+ 
+Phasellus commodo in sem egestas efficitur. Pellentesque ac felis feugiat, lobortis erat non, accumsan tellus. Maecenas mauris ipsum, tristique id justo sed, congue faucibus dolor. Aenean posuere placerat lectus ac facilisis. Maecenas viverra lacus vitae pellentesque tempus. Aliquam malesuada metus ut mattis aliquam. Vivamus euismod rhoncus venenatis. Duis non justo eget massa molestie posuere eu nec mi. Aliquam ac pharetra ligula. Praesent id nunc pretium, vehicula est in, finibus sapien. Sed viverra porta tortor et bibendum. In a varius libero. Donec bibendum, nisl non varius maximus, nulla lectus posuere purus, vitae ornare dolor urna ac libero.
+ 
+Nulla sollicitudin eu lacus et feugiat. Cras sit amet lobortis eros. Mauris erat justo, tempus in tellus a, bibendum condimentum nunc. Nunc nec tortor at magna consectetur mattis vitae quis libero. Mauris id dui dui. Vestibulum sit amet nibh finibus ipsum malesuada auctor. Etiam at feugiat mauris, in laoreet sem. In quis lacus ac arcu cursus tempus ac condimentum dui. Sed quis tempor dui, in congue sapien. Maecenas dapibus feugiat neque a consequat. Nunc at enim non nunc hendrerit dignissim in quis ante. Duis dui nisi, sagittis eget purus ut, eleifend placerat arcu. Maecenas rhoncus aliquet nunc, a aliquet ligula sagittis quis. Donec at bibendum ligula. Etiam laoreet, leo quis tincidunt dictum, nulla dolor bibendum risus, eget commodo nisi magna quis sapien. Aenean nec sem eu purus laoreet vehicula.
+ 
+Mauris nec nulla metus. Etiam vulputate, nulla in sollicitudin maximus, tortor quam egestas sapien, ut condimentum elit tellus id purus. Integer convallis eget quam quis suscipit. Vivamus nulla velit, pellentesque non nibh a, tempus porta ipsum. Morbi eget nibh imperdiet, efficitur sapien quis, finibus massa. Morbi accumsan hendrerit erat et vestibulum. Nulla facilisi. Donec dictum tellus nec ultricies sodales. Vestibulum pulvinar semper risus, sit amet dignissim ipsum bibendum in. Donec congue, enim et eleifend porta, dolor quam lacinia leo, et congue tellus dolor sagittis lectus. Morbi pulvinar, metus imperdiet rutrum varius, nisl nisl accumsan lectus, vel dictum mi nisi id nunc. Quisque in metus ut nisl fringilla aliquam vitae vitae elit. Maecenas sapien arcu, euismod non nisl sed, tincidunt imperdiet sem. Suspendisse placerat diam tellus. Cras eros dolor, convallis at ex mollis, tincidunt euismod dui.</value>
   </data>
 </root>
