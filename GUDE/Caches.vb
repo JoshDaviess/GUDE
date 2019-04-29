@@ -84,4 +84,44 @@
         UncollectedCache.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        UncollectedCache.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        UncollectedCache.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        UncollectedCache.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        UncollectedCache.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        UncollectedCache.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        UncollectedCache.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        UncollectedCache.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        UncollectedCache.Show()
+        Me.Hide()
+    End Sub
 End Class

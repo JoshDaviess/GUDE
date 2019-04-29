@@ -1015,7 +1015,7 @@ Partial Class Caches
         Me.showorhide.BackColor = System.Drawing.Color.FromArgb(CType(CType(218, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.showorhide.Location = New System.Drawing.Point(250, 131)
         Me.showorhide.Name = "showorhide"
-        Me.showorhide.Size = New System.Drawing.Size(585, 40)
+        Me.showorhide.Size = New System.Drawing.Size(585, 603)
         Me.showorhide.TabIndex = 157
         Me.showorhide.TabStop = False
         '

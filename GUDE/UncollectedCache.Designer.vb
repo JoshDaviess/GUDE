@@ -164,7 +164,7 @@ Partial Class UncollectedCache
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(228, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(254, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1188, 592)
+        Me.ClientSize = New System.Drawing.Size(1149, 529)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.PictureBox2)
@@ -177,6 +177,7 @@ Partial Class UncollectedCache
         Me.Controls.Add(Me.PictureBox15)
         Me.Controls.Add(Me.showhide2)
         Me.Name = "UncollectedCache"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "UncollectedCache"
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
